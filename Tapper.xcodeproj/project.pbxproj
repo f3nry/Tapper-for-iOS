@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA30026F152943EF00B18508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA30026E152943EF00B18508 /* UIKit.framework */; };
+		DA300271152943EF00B18508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA300270152943EF00B18508 /* Foundation.framework */; };
+		DA300273152943EF00B18508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA300272152943EF00B18508 /* CoreGraphics.framework */; };
+		DA300279152943EF00B18508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA300277152943EF00B18508 /* InfoPlist.strings */; };
+		DA30027B152943EF00B18508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30027A152943EF00B18508 /* main.m */; };
+		DA30027F152943EF00B18508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30027E152943EF00B18508 /* AppDelegate.m */; };
+		DA300282152943EF00B18508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA300281152943EF00B18508 /* ViewController.m */; };
+		DA300285152943EF00B18508 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA300283152943EF00B18508 /* ViewController.xib */; };
+		DA3002911529541500B18508 /* MorseCodeDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3002901529541500B18508 /* MorseCodeDecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA30026A152943EF00B18508 /* Tapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA30026E152943EF00B18508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA300270152943EF00B18508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA300272152943EF00B18508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA300276152943EF00B18508 /* Tapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tapper-Info.plist"; sourceTree = "<group>"; };
+		DA300278152943EF00B18508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA30027A152943EF00B18508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA30027C152943EF00B18508 /* Tapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tapper-Prefix.pch"; sourceTree = "<group>"; };
+		DA30027D152943EF00B18508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA30027E152943EF00B18508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA300280152943EF00B18508 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA300281152943EF00B18508 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA300284152943EF00B18508 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DA30028F1529541500B18508 /* MorseCodeDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCodeDecoder.h; sourceTree = "<group>"; };
+		DA3002901529541500B18508 /* MorseCodeDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCodeDecoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA300267152943EF00B18508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA30026F152943EF00B18508 /* UIKit.framework in Frameworks */,
+				DA300271152943EF00B18508 /* Foundation.framework in Frameworks */,
+				DA300273152943EF00B18508 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA30025F152943EE00B18508 = {
+			isa = PBXGroup;
+			children = (
+				DA300274152943EF00B18508 /* Tapper */,
+				DA30026D152943EF00B18508 /* Frameworks */,
+				DA30026B152943EF00B18508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA30026B152943EF00B18508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA30026A152943EF00B18508 /* Tapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA30026D152943EF00B18508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA30026E152943EF00B18508 /* UIKit.framework */,
+				DA300270152943EF00B18508 /* Foundation.framework */,
+				DA300272152943EF00B18508 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA300274152943EF00B18508 /* Tapper */ = {
+			isa = PBXGroup;
+			children = (
+				DA30027D152943EF00B18508 /* AppDelegate.h */,
+				DA30027E152943EF00B18508 /* AppDelegate.m */,
+				DA300280152943EF00B18508 /* ViewController.h */,
+				DA300281152943EF00B18508 /* ViewController.m */,
+				DA300283152943EF00B18508 /* ViewController.xib */,
+				DA300275152943EF00B18508 /* Supporting Files */,
+				DA30028F1529541500B18508 /* MorseCodeDecoder.h */,
+				DA3002901529541500B18508 /* MorseCodeDecoder.m */,
+			);
+			path = Tapper;
+			sourceTree = "<group>";
+		};
+		DA300275152943EF00B18508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA300276152943EF00B18508 /* Tapper-Info.plist */,
+				DA300277152943EF00B18508 /* InfoPlist.strings */,
+				DA30027A152943EF00B18508 /* main.m */,
+				DA30027C152943EF00B18508 /* Tapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA300269152943EF00B18508 /* Tapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA300288152943EF00B18508 /* Build configuration list for PBXNativeTarget "Tapper" */;
+			buildPhases = (
+				DA300266152943EF00B18508 /* Sources */,
+				DA300267152943EF00B18508 /* Frameworks */,
+				DA300268152943EF00B18508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tapper;
+			productName = Tapper;
+			productReference = DA30026A152943EF00B18508 /* Tapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA300261152943EE00B18508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DA300264152943EF00B18508 /* Build configuration list for PBXProject "Tapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA30025F152943EE00B18508;
+			productRefGroup = DA30026B152943EF00B18508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA300269152943EF00B18508 /* Tapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA300268152943EF00B18508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA300279152943EF00B18508 /* InfoPlist.strings in Resources */,
+				DA300285152943EF00B18508 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA300266152943EF00B18508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA30027B152943EF00B18508 /* main.m in Sources */,
+				DA30027F152943EF00B18508 /* AppDelegate.m in Sources */,
+				DA300282152943EF00B18508 /* ViewController.m in Sources */,
+				DA3002911529541500B18508 /* MorseCodeDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA300277152943EF00B18508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA300278152943EF00B18508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA300283152943EF00B18508 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA300284152943EF00B18508 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA300286152943EF00B18508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA300287152943EF00B18508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA300289152943EF00B18508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tapper/Tapper-Prefix.pch";
+				INFOPLIST_FILE = "Tapper/Tapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA30028A152943EF00B18508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tapper/Tapper-Prefix.pch";
+				INFOPLIST_FILE = "Tapper/Tapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA300264152943EF00B18508 /* Build configuration list for PBXProject "Tapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA300286152943EF00B18508 /* Debug */,
+				DA300287152943EF00B18508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA300288152943EF00B18508 /* Build configuration list for PBXNativeTarget "Tapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA300289152943EF00B18508 /* Debug */,
+				DA30028A152943EF00B18508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA300261152943EE00B18508 /* Project object */;
+}
